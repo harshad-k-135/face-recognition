@@ -61,7 +61,7 @@ The training process included **data augmentation techniques** such as:
 The graph above demonstrates the steady increase in accuracy as the model progresses through training epochs, achieving near-perfect classification at the final stage.
 
 ### **2. True vs. Predicted Labels (20 Random Samples)**
-![True vs Predicted Labels]([image-1.png](https://github.com/harshad-k-135/face-recognition/blob/main/pred.png?raw=true))
+![True vs Predicted Labels]([image-1.png](https://github.com/harshad-k-135/face-recognition/blob/main/pred.png?raw=true)
 
 This image visualizes 20 randomly selected test images from the dataset. **19 out of 20 predictions were correct**, demonstrating the model’s high reliability.
 
