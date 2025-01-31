@@ -28,7 +28,7 @@ Each subdirectory corresponds to a unique person, and the images inside contain 
 ## Model Architecture
 The model is built using PyTorch and leverages a pretrained **ResNet50** as its backbone. The architecture is designed for high accuracy and efficient learning, incorporating fine-tuning, regularization, and advanced optimization techniques. 
 
-### **Key Features of the Model: **
+### Key Features of the Model: 
 - **Resnet50 backbone**: Extract spatial features from the input images
 - **Fine tuning strategy**: The last 3 layers of the model are unfrozen, allowing the model to adapt to the new dataset, while using the pretrained weights.
 - **FC layer**: The original classification head is replaced with a custom **two-layered FC network**.
